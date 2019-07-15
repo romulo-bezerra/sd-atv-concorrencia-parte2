@@ -4,6 +4,7 @@ br/edu/ifpb/sdatvconcorrenciaparte2/thread/UpdaterUser.class
 br/edu/ifpb/sdatvconcorrenciaparte2/factory/UserIdFactory.class
 br/edu/ifpb/sdatvconcorrenciaparte2/loader/Loader.class
 br/edu/ifpb/sdatvconcorrenciaparte2/dao/UsuarioDao.class
+br/edu/ifpb/sdatvconcorrenciaparte2/thread/ThreadRootController.class
 br/edu/ifpb/sdatvconcorrenciaparte2/thread/RemoverUser.class
 br/edu/ifpb/sdatvconcorrenciaparte2/thread/InserterUser.class
 br/edu/ifpb/sdatvconcorrenciaparte2/factory/ConFactoryPostgreSQL.class
