@@ -29,9 +29,9 @@ public class Loader {
     public boolean isPaused = false;
 
     public Loader() throws UnknownHostException {
-        this.queueInsert = new ArrayBlockingQueue<String>(20);
-        this.queueUpdate = new ArrayBlockingQueue<String>(20);
-        this.queueDelete = new ArrayBlockingQueue<String>(20);
+        this.queueInsert = new ArrayBlockingQueue<String>(1000);
+        this.queueUpdate = new ArrayBlockingQueue<String>(1000);
+        this.queueDelete = new ArrayBlockingQueue<String>(1000);
         this.userIdFactory = new UserIdFactory();
         this.log = Logger.getLogger(this.getClass().getName());
 
